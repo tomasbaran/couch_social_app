@@ -53,6 +53,7 @@ lib/
 - **Command pattern for state management**: Replace simple loading/error flags with the more robust [Command pattern](https://github.com/tomasbaran/flutter-dark-mode-clean-architecture) using `CommandState<T>` (Idle, Executing, Succeeded, Failed) for better async operation handling and state tracking
 - **Centralized dependency injection**: Use a centralized DI container like [AppDependencies](https://github.com/tomasbaran/flutter-dark-mode-clean-architecture/blob/main/lib/core/app_dependencies.dart) instead of creating dependencies inline in widgets
 - **Comprehensive testing**: Add unit tests, widget tests, integration tests, and golden tests for complete test coverage
+- **Centralized theme system**: Create a centralized theme with all design tokens including fonts, spacing, colors, and strings for consistent UI/UX
 
 ## Challenges/Future todos
 
