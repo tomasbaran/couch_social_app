@@ -1,4 +1,4 @@
-import 'package:couch_social_app/features/profile/presentation/profile_screen.dart';
+import 'package:couch_social_app/features/wall/presentation/wall_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: ProfileScreen());
+    return const MaterialApp(home: WallScreen());
   }
 }
