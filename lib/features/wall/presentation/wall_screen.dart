@@ -16,12 +16,10 @@ class WallScreen extends StatelessWidget {
       create: (context) {
         final fakeData = FakeData();
         return WallVM(
-            wallRepository: WallRepositoryImpl(fakeData: fakeData),
-            friendsRepository: FriendsRepositoryImpl(fakeData: fakeData),
-            loggedUserId: FakeData.loggedUserId,
-          )
-          ..loadPosts()
-          ..loadFriendsAndUpdatePosts();
+          wallRepository: WallRepositoryImpl(fakeData: fakeData),
+          friendsRepository: FriendsRepositoryImpl(fakeData: fakeData),
+          loggedUserId: FakeData.loggedUserId,
+        )..init();
       },
       child: const _WallScreenView(),
     );

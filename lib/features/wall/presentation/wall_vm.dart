@@ -26,7 +26,8 @@ class WallVM extends ChangeNotifier {
     required this.loggedUserId,
   });
 
-  loadFriendsAndUpdatePosts() async {
+  init() async {
+    await loadPosts();
     await loadFriends();
     await updatePostsWithAuthor();
   }
