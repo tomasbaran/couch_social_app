@@ -54,6 +54,7 @@ lib/
 - **Centralized dependency injection**: Use a centralized DI container like [AppDependencies](https://github.com/tomasbaran/flutter-dark-mode-clean-architecture/blob/main/lib/core/app_dependencies.dart) instead of creating dependencies inline in widgets
 - **Comprehensive testing**: Add unit tests, widget tests, integration tests, and golden tests for complete test coverage
 - **Centralized theme system**: Create a centralized theme with all design tokens including fonts, spacing, colors, and strings for consistent UI/UX
+- **Business logic in ViewModels**: Move formatting logic like `_formatDate` (L100 in post_screen.dart) to the appropriate ViewModel (wall_vm.dart) for better testability and separation of concerns
 
 ## Challenges/Future todos
 
