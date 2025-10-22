@@ -2,6 +2,12 @@
 
 A Flutter social media application built with clean architecture principles.
 
+
+
+https://github.com/user-attachments/assets/ce5f8c0c-c88f-439a-8597-79e80d75435c
+
+
+
 ## Architecture
 
 This app follows **Clean Architecture** with feature-based organization:
